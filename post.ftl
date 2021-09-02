@@ -32,11 +32,11 @@
                 <p class="text-important">未经允许不得转载</p>
                 <ul class="pager pager-justify">
                     <#if prevPost??>
-                        <li class="previous"><a target="_blank" href="${prevPost.fullPath}"><i
+                        <li class="previous"><a  href="${prevPost.fullPath}"><i
                                         class="icon-arrow-left"></i>${prevPost.title}</a></li>
                     </#if>
                     <#if nextPost??>
-                        <li class="next"><a target="_blank" href="${nextPost.fullPath}">${nextPost.title}<i
+                        <li class="next"><a  href="${nextPost.fullPath}">${nextPost.title}<i
                                         class="icon-arrow-right"></i></a></li>
                     </#if>
                 </ul>
