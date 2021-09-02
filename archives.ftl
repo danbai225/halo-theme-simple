@@ -3,26 +3,18 @@
 <div class="container">
     <h1>归档</h1>
     <ul id="posts">
+      <@postTag method="archiveMonth">
+        <#list archives as archive>
+      <h2>${archive.year?c}年${archive.month?c}月</h2>
+      <ul>
+          <#list archive.posts?sort_by("createTime")?reverse as post>
+            <li>
+              <a href="${post.fullPath!}">${post.title!}</a>
+            </li>
+          </#list>
+      	</ul>
+        </#list>
+	</@postTag>
     </ul>
 </div>
-<script>
-$(function(){
-    $.get("api/content/archives/months",function(data,status){
-        if (data.status==200){
-            var posts=data.data;
-            
-            var dpost=$("#posts");
-            for (var i=0;i<posts.length;i++)
-            { 
-                var pss=posts[i].posts;
-                dpost.append("<h2>"+posts[i].year+"年"+posts[i].month+"月</h2>")
-                for (var j=0;j<pss.length;j++)
-                { 
-                    dpost.append('<li><a href="'+pss[j].fullPath+'">'+pss[j].title+'</a></li>')
-                }
-            }
-        }
-    });
-});
-</script>
 </@layout>
