@@ -1,0 +1,9 @@
+# 配置详情请参考：https://docs.halo.run/zh/developer-guide/theme/config-files
+genernal:
+  label: 基本设置
+  items:
+    beian:
+      name: beian
+      label: 备案号
+      type: text
+      default: ""

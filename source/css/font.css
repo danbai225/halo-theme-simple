@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "Zpix";
+  src: url("../fonts/zpix.woff2")format("woff2")
+}
+body{
+    font-family: 'Zpix';
+}
