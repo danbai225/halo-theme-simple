@@ -1,7 +1,8 @@
 @font-face {
     font-family: "Zpix";
-    src: url("../fonts/zpix.woff2")format("woff2")
-  }
-  body{
-      font-family: 'Zpix';
-  }
+    src: url("../fonts/zpix.woff2")
+}
+
+body,td,th,h1,h2,h3,h4,h5,h6{
+    font-family: 'Zpix', Arial, Helvetica, sans-serif;
+}

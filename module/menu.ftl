@@ -11,7 +11,11 @@
     <!-- 导航项目 -->
     <div class="collapse navbar-collapse navbar-collapse-example">
       <!-- 右侧的导航项目 -->
+      
       <ul class="nav navbar-nav navbar-right">
+        <li>
+         <input style="margin-top: 3px;" id="searchBox" type="search" class="form-control search-input" placeholder="搜索">
+        </li>
         <li><a href="/">首页</a></li>
         <li><a href="/archives">归档</a></li>
         <li><a href="/links">友情链接</a></li>
