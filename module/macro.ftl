@@ -37,9 +37,12 @@
 <hr>
 <div class="container text-center">
    Copyright &copy; 2021<a href="https://p00q.cn"> ${blog_title!}</a><br/>
-   <a href="http://beian.miit.gov.cn" target="_blank">${settings.beian!}</a>
+   <a href="http://beian.miit.gov.cn" target="_blank">${settings.beian!}</a><br/>
+   <a href="${sitemap_html_url!}" target="_blank">网站地图</a>|
+   <a href="${rss_url!}" target="_blank">RSS</a>
+   <br />
    <!-- 请尊重作者，请务必保留版权 -->
-   <p>Powered by <a target="_blank" href="http://halo.run" data-pjax-state="">Halo</a> •
+   Powered by <a target="_blank" href="http://halo.run" data-pjax-state="">Halo</a> •
                 Theme by <a target="_blank" href="https://github.com/danbai225/halo-theme-simple" data-pjax-state="">Simple</a>
    <p>本站运行：<span id="span_dt_dt"></span></p>
 </div>
