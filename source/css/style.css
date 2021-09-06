@@ -6,3 +6,47 @@
 body,td,th,h1,h2,h3,h4,h5,h6{
     font-family: 'Zpix', Arial, Helvetica, sans-serif;
 }
+.device-mobile .container{
+    width:98%;
+    max-width:98%;
+}
+.device-mobile h1{
+    font-size:250%;
+}
+.device-mobile h2{
+    font-size:225%;
+}
+.device-mobile h3{
+    font-size:200%;
+}
+.device-mobile h4{
+     font-size:180%;
+}
+.device-mobile h5{
+    font-size:160%;
+}
+.device-mobile h6{
+   font-size:150%;
+}
+.device-mobile body{
+     font-size:200%;
+}
+.device-mobile a{
+     font-size:100%;
+}
+.device-mobile li{
+     font-size:100%;
+}
+.device-mobile p{
+     font-size:200%;
+}
+.device-mobile span{
+     font-size:100%;
+}
+.device-mobile pre{
+     font-size:150%;
+}
+
+.device-mobile .dl-inline{
+     font-size:100%;
+}
