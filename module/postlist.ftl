@@ -9,9 +9,10 @@
         </div>
         <div class="item-content">
             <div class="media pull-right">
-                <#if post.thumbnail!="">
-                <img src="${post.thumbnail!}"></div>
-            </#if>
+              <#if post.thumbnail!="">
+                <img src="${post.thumbnail!}"/>
+               </#if>
+          </div>           
             <div class="text">${post.summary!}</div>
             <div class="pull-bottom">
                 <#list post.categories as category>
@@ -22,5 +23,4 @@
                 </#list>
             </div>
         </div>
-    </div>
 </#list>
