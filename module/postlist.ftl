@@ -13,7 +13,7 @@
                 <img src="${post.thumbnail!}"/>
                </#if>
           </div>           
-            <div class="text">${post.summary!}</div>
+            <div class="text post-list-text{">${post.summary!}</div>
             <div class="pull-bottom">
                 <#list post.categories as category>
                     <span class="label label-success label-outline"><a href="${category.fullPath!}" class="text-muted">${category.name!}</a></span>
@@ -23,4 +23,7 @@
                 </#list>
             </div>
         </div>
+    </div>
 </#list>
+SpringMvcConfig@ConfigurationpublicclassMyWebMvcConfigurerimplementsWebMvcConfigurer{@OverridepublicvoidaddResourceHandlers(ResourceHandlerRegistryreg
+teststeststeststeststeststeststeststeststeststeststeststeststeststeststeststeststeststeststeststeststeststeststeststeststeststeststeststeststeststests

@@ -6,6 +6,9 @@
 body,td,th,h1,h2,h3,h4,h5,h6{
     font-family: 'Zpix', Arial, Helvetica, sans-serif;
 }
+.post-list-text{
+   word-wrap:break-word
+}
 .device-mobile .container{
     width:98%;
     max-width:98%;
